@@ -1,0 +1,21 @@
+.carousel{
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-item img{
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+// Small devices (landscape phones, 576px and up)
+
+@media screen and (max-width: 576x) {
+  .carousel-item {
+      height: 300px;
+      object-fit: cover;
+    object-position: center;
+  }
+}

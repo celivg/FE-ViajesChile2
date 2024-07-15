@@ -1,0 +1,9 @@
+.testimonio{
+  color: $white;
+  text-align: center;
+
+  &--quote{
+    font-style: italic;
+    width: 80%;
+  }
+}
