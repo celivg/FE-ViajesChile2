@@ -25,3 +25,17 @@ if (alertTrigger) {
     appendAlert('Nice, you triggered this alert message!', 'success')
   })
 }
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 50) {
+      $("nav").css({
+          "background-color": "#212429",
+          transition: "all ease-in-out .3s",
+      });
+  } else {
+      $("nav").css({
+          "background-color": "transparent",
+          transition: "all ease-in-out .3s",
+      });
+  }
+});

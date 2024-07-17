@@ -12023,9 +12023,9 @@ span {
   color: #070D1F;
 }
 
-.card-body {
+.card {
   background-color: #ffffff;
-  border-radius: 0 10px 10px 0;
+  border-radius: 10px;
 }
 
 .testimonio {
